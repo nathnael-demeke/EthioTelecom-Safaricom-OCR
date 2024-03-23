@@ -3,7 +3,7 @@ import pytesseract
 import re 
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-
+print("service started...")
 while True:
     try:
         number = input("please enter image number: ")
